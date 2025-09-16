@@ -102,24 +102,417 @@
     // $a = "pink"; 
     // $name = "<h1 style = \"color:$a\"> Kyrene Pretty";
 
-    $name = "Kyrene Pretty";
+    // $name = "Kyrene Pretty";
 
-    echo strlen ($name), "<br>";
-    echo str_word_count($name), "<br>";
-    echo strpos ($name, "Pretty"), "<br>";
-    echo strtoupper ($name,), "<br>";
-    echo strtolower ($name,), "<br>";
-    echo str_replace ("Pretty", "Ganda", $name,), "<br>";
-    echo strrev ($name,), "<br>";
-    echo trim($name,), "<br>";
-    echo print_r(explode("o", $name,), "<br>");
+    // echo strlen ($name), "<br>";
+    // echo str_word_count($name), "<br>";
+    // echo strpos ($name, "Pretty"), "<br>";
+    // echo strtoupper ($name,), "<br>";
+    // echo strtolower ($name,), "<br>";
+    // echo str_replace ("Pretty", "Ganda", $name,), "<br>";
+    // echo strrev ($name,), "<br>";
+    // echo trim($name,), "<br>";
+    // echo print_r(explode("o", $name,), "<br>");
+
+
+    // $x = "Hello";
+    // $y = "World";
+    // echo $x ." ". $y. "<br>";
+    // echo "$x $y <br>";
+    // echo '$x $y <br>';
+
+    //Slicing
+    // $x = "Hello";
+    // echo substr($x, 1, 4), "<br>";
+    // echo substr($x, 1, ), "<br>";
+    // echo substr($x, -5, 4), "<br>";
+
+    //escape charaters
+    // $a = "sample";
+    // $x = "kyrene \"pretty\" aguilar";
+    // echo $x;
+
+    //number
+    // $a = -1; //int
+    // $b = 1.0; //float
+    // $c = "5 bayag"; // string
+
+    // echo PHP_INT_MAX, "<br>";
+    // echo PHP_INT_MIN, "<br>";
+    // echo PHP_INT_SIZE, "<br>";
+    // echo is_int($a), "<br>";
+
+    // echo PHP_FLOAT_MAX, "<br>";
+    // echo PHP_FLOAT_MIN, "<br>";
+    // echo PHP_FLOAT_DIG, "<br>";
+    // echo PHP_FLOAT_EPSILON, "<br>";
+    // echo is_float($b), "<br>";
+
+    // echo is_numeric($c);
+
+    //php cxasting
+
+    // $a = "pretty";
+
+    // $a = "Kyrene"; // String
+    //      $b = 5; //int
+    //      $c = 3.14; //Float
+    //      $d = true; // Boolean
+    //      $e = [1, 2, 3]; //array
+    //      $f = new stdClass(); // object
+    //      $g = null; // null
+    //      $h = fopen("php_practice.php", "r"); // resource
+
+        //  $a = $a;
+        //  $b = $b;
+        //  $c = $c;
+        //  $d = $d;
+        //  $e = $e;
+        //  $f = $f;
+        //  $g = $g;
+        //  $h = $h;
+
+
+        //casting - string
+        //  $a = (string) $a;
+        //  $b = (string) $b;
+        //  $c = (string) $c;
+        //  $d = (string) $d;
+        //  $e = $e;
+        //  $f = $f;
+        //  $g = (string) $g;
+        //  $h = (string) $h;
+
+         //casting - int
+
+        //  $a = (int) $a;
+        //  $b = (int) $b;
+        //  $c = (int) $c;
+        //  $d = (int) $d;
+        //  $e = (int) $e;
+        //  $f =  $f;
+        //  $g = (int) $g;
+        //  $h = (int) $h;
+
+         //casting - float
+        //  $a = (float) $a;
+        //  $b = (float) $b;
+        //  $c = (float) $c;
+        //  $d = (float) $d;
+        //  $e = (float) $e;
+        //  $f = $f;
+        //  $g = (float) $g;
+        //  $h = (float) $h;
+
+
+       
+        //casting - boolaen
+        //  $a = (bool) $a;
+        //  $b = (bool) $b;
+        //  $c = (bool) $c;
+        //  $d = (bool) $d;
+        //  $e = (bool) $e;
+        //  $f = $f;
+        //  $g = (bool) $g;
+        //  $h = (bool) $h;
+
+         
+        //casting - array
+        //  $a = (array) $a;
+        //  $b = (array) $b;
+        //  $c = (array) $c;
+        //  $d = (array) $d;
+        //  $e = (array) $e;
+        //  $f = $f;
+        //  $g = (array) $g;
+        //  $h = (array) $h;
+
+        //  //casting - object
+        //  $a = (array) $a;
+        //  $b = (array) $b;
+        //  $c = (array) $c;
+        //  $d = (array) $d;
+        //  $e = (array) $e;
+        //  $f = $f;
+        //  $g = (array) $g;
+        //  $h = (array) $h;
+
+
+
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($e);
+        // echo "<br>";
+        // var_dump($f);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
+
+   
+    //php math
+
+    //    $pi = pi();
+    //    echo $pi, "<br>";
+       
+    //    $minNumber = min(300, 3, 80, 4, 98);
+    //    $maxNumber = max(300, 3, 80, 4, 98);
+
+    //    echo $minNumber, "<br>";
+    //    echo $maxNumber, "<br>";
+
+    //    $num = 5;
+    //    echo abs($num), "<br>";
+
+    //    $sqrt = sqrt(9);
+    //    echo $sqrt, "<br>";
+
+    //    $rounded = round(3.49, 1);
+    //    echo $rounded;
+
+    //    echo PHP_INT_MAX, "<br>";
+    //    echo PHP_INT_MIN, "<br>";
+    //    echo rand(), "<br>";
+       
+    //    echo rand(5, 30), "<br>";
+
+
+    //php constant
+   
+    // define("GREETING", "39");
+    // //echo GREETING;
+    // $x = 5;
+
+    // function test() {
+    //     echo GREETING;
+    // }
+
+    // test();
+
+    // php operators
+    // arithmitic
+
+    //addition + sum
+
+    //  echo 6 + 5 + 90, "<br>";
+
+    // //subtraction - Difference
+
+    // echo 7 - 2 - 10, "<br>";;
+
+    // echo 7 - 2 + 90, "<br>"; //pemdas
+
+    // //Multiplication * product
+
+    // echo 6 * 8 * 9, "<br>"; 
+
+    // //division / quotient
+
+    // echo 6 / 8, "<br>";
+    
+    // echo 6 + 6 / 2 * 2, "<br>";
+
+    // // modulus %
+    // echo 5 % 3, "<br>";
+
+
+    // //exponent **
+    // echo 4**2,"<br>";
+
+
+    // assignment
+    // $x = 5;
+
+    // // +-
+    // // $x = $x + 10 
+    // $x +- 10;
+    // echo $x
+
+
+    // comparison 
+
+    // ==
+    // var_dump(6 == "6");
+
+    // // === indentical
+    // var_dump(6 === "6");
+
+    // //!=
+    // var_dump(100 != 99);
+
+    // //!==
+    // var_dump(100 !== 100);
+
+    // // >
+    // // > =
+    // var_dump(6 >= 6);
+
+    // // < 
+    // // <=
+    // var_dump(6 <= 7);
+
+    // //<==>
+    // echo 2 <==> 1;
+
+
+    // // ++ increment
+    // $x = 5;
+    // // pre - incement 
+    // echo ++$x, "<br>";
+    // $y = 5;
+    // //post - incement
+    // echo $y++, "<br>";
+
+
+    // // -- decrement
+    //  $x = 5;
+    // // pre - decrement 
+    // echo --$x, "<br>";
+    // $y = 5;
+    // //post - decrement
+    // echo $y--, "<br>";
+
+    //logical operators
+
+    //AND &&
+    // var_dump(true and true); // true
+    // echo "<br>";
+    // var_dump(6 == "6" and 6 > 9); // false
+    // echo "<br>";
+
+    // // OR ||
+    // var_dump(false or false); // false
+    // echo "<br>";
+    // var_dump(6 == "6" || 6 > 9); // true
+    // echo "<br>";
+
+    // //xor 
+    // var_dump(true xor false); // true
+    // echo "<br>";
+    // var_dump(6 == "6" xor 6 > 9); // true
+    // echo "<br>";
+
+    // // !
+    // var_dump(!true); // false
+    // echo "<br>";
+    // var_dump(!(6 == "6")); // false
+    // echo "<br>";
+
+    //String operators
+    // echo "Hello" . "World!"
+
+    //  $x = "Hello";
+    // // $x .= $x . "World";
+    //  $x .= "World";
+
+    //ternary
+    // $color = 5 > 10 ? "More" : "Less";
+    // echo $color;
+
+    // null coalescing
+    // $age + 10 ?? 20;
+    // echo $age;
+
+    //looping Statement
+    // while
+    // do while
+    //for
+    //foreach -> array
+
+    // $students = array (
+    //     array("name"=>"Mary","age"=>17,"gender"=>"Female"),
+    //     array("name"=>"Joy","age"=>21,"gender"=>"Female"),
+    //     array("name"=>"Ben","age"=>30,"gender"=>"Male"),
+    // )
+
+    // foreach($students as $students){
+    //     foreach($students as $value){
+    //         echo $value
+    //     }
+    // }
+
+  
+
+
+
 
 
 
     ?>
+<!-- <h1>Students</h1>
+<ul>
+    </?php 
+        foreach($students as $student){ ?>
+            echo "<li>My name is ". $student['name'] . " age is . $student['age'] ." and i am ". $student['gender'] .".</li>";
+    </?php}
+        
+
+</ul> -->
+
+    <!-- <form action="phppractice.php" method="post">
+        <label for="">Username:</label>
+        <input type="text" name="username">
+        <br>
+        <label for="">Password:</label>
+        <input type="text" name="password"> 
+        <br>
+        <input type="submit" value="Login">
+                                      
+    </form>
+                                       -->
+      <?php 
+            $username = "";
+
+            $error_messages = [];
+
+            if(isset($_REQUEST['btnSubmit'])){
+                $username = $_REQUEST['username'];
+                
+                if($_REQUEST['username'] == ""){
+                    array_push($error_messages, "Username is required!");
+                }
+
+                if($_REQUEST['password'] == ""){
+                    array_push($error_messages, "Password is required!");
+                }
+            }
+        ?>
+
+        <!-- get send data thru url -->
+        <!-- post send data thru http request -->
+        <?php 
+            if(!empty($error_messages)){
+                foreach($error_messages as $error){
+                    echo $error ."<br>";
+                }
+            }     
+        ?>
+        <form action="php_practice.php" method="get">
+            <label for="">Username:</label>
+            <input type="text" name="username" value="<?php echo $username; ?>">
+            <br>    
+            <label for="">Password:</label>
+            <input type="password" name="password">
+            <br>
+            <input type="submit" value="Login" name="btnSubmit">
+        </form>
+
+ <?php 
+            if(isset($_REQUEST['username']) and isset($_REQUEST['password'])){
+                echo "Username: " . $_REQUEST['username'], "<br>";
+                echo "Password: " . $_REQUEST['password'];
+            }
+        ?>
 
     
-
 </body>
 </html>
+
 
